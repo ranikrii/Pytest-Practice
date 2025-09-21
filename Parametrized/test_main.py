@@ -1,6 +1,6 @@
 import pytest
 from main import Prime
-
+#test parameterize
 @pytest.mark.parametrize("num,expected", [
     (1, False), 
     (3, False),

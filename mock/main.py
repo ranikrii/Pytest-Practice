@@ -1,4 +1,5 @@
 import requests
+
 def get_weather(city):
     response = requests.get(f"https://api.weather.com/v1/{city}")
     if response.status_code == 200:
@@ -6,4 +7,4 @@ def get_weather(city):
     else:
            raise ValueError("could not fetch the data")
            
-
+#try other mock scenarios as well

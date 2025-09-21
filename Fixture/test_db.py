@@ -21,3 +21,5 @@ def test_delete_user(db):
     db.add_user(2, "Bob")
     db.delete_user(2)
     assert 2 not in db.data
+
+    # test fixtures

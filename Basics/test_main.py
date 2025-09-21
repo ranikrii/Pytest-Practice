@@ -10,3 +10,4 @@ def test_divide():
     with pytest.raises(ValueError, match="can't divide by zero"):
         divide(10, 0)
 
+#test assert
